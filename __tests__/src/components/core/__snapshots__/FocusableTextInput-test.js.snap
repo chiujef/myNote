@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FocusableTextInput Rendering Focused component should match to snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    autoCompleteType="off"
+    autoCorrect={false}
+    autoFocus={true}
+    blurOnSubmit={false}
+    multiline={true}
+    onBlur={[Function]}
+    rejectResponderTermination={true}
+    style={
+      Array [
+        undefined,
+        undefined,
+      ]
+    }
+    underlineColorAndroid="transparent"
+    value="text"
+  />
+</View>
+`;
+
+exports[`FocusableTextInput Rendering Not focused component should match to snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    clickable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    text
+  </Text>
+</View>
+`;

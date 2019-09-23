@@ -1,0 +1,320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoteItem Rendering completed noteItem should match to snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+    }
+  }
+>
+  <View
+    accessible={true}
+    clickable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "margin": 5,
+        "marginLeft": 10,
+        "marginRight": 10,
+        "opacity": 1,
+        "padding": 10,
+      }
+    }
+    testID="checkbox"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#2089dc",
+              "fontSize": 24,
+            },
+            Object {
+              "minWidth": 24,
+            },
+            Object {
+              "fontFamily": "FontAwesome",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoCompleteType="off"
+      autoCorrect={false}
+      autoFocus={true}
+      blurOnSubmit={false}
+      multiline={true}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      rejectResponderTermination={true}
+      style={
+        Array [
+          undefined,
+          Object {
+            "textDecorationLine": "line-through",
+            "textDecorationStyle": "solid",
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value="tent"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flex": 0.25,
+        "justifyContent": "center",
+        "margin": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderRadius": 3,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#2089dc",
+              "borderColor": "#2089dc",
+              "borderRadius": 3,
+              "borderWidth": 0,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "padding": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 18,
+                "paddingBottom": 1,
+                "paddingTop": 2,
+                "textAlign": "center",
+              }
+            }
+          >
+            x
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`NoteItem Rendering should match to snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+    }
+  }
+>
+  <View
+    accessible={true}
+    clickable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "margin": 5,
+        "marginLeft": 10,
+        "marginRight": 10,
+        "opacity": 1,
+        "padding": 10,
+      }
+    }
+    testID="checkbox"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#bfbfbf",
+              "fontSize": 24,
+            },
+            Object {
+              "minWidth": 24,
+            },
+            Object {
+              "fontFamily": "FontAwesome",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoCompleteType="off"
+      autoCorrect={false}
+      autoFocus={true}
+      blurOnSubmit={false}
+      multiline={true}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      rejectResponderTermination={true}
+      style={
+        Array [
+          undefined,
+          null,
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value="tent"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flex": 0.25,
+        "justifyContent": "center",
+        "margin": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderRadius": 3,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#2089dc",
+              "borderColor": "#2089dc",
+              "borderRadius": 3,
+              "borderWidth": 0,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "padding": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 18,
+                "paddingBottom": 1,
+                "paddingTop": 2,
+                "textAlign": "center",
+              }
+            }
+          >
+            x
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

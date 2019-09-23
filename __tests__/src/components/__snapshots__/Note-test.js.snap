@@ -1,0 +1,396 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Note Rendering should match to snapshot 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F5FCFF",
+        "borderTopColor": "#b3bec9",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "height": 50,
+        "justifyContent": "center",
+        "position": "absolute",
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderRadius": 3,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#2089dc",
+              "borderColor": "#2089dc",
+              "borderRadius": 3,
+              "borderWidth": 0,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "padding": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 18,
+                "paddingBottom": 1,
+                "paddingTop": 2,
+                "textAlign": "center",
+              }
+            }
+          >
+            + Add
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>,
+  <RCTScrollView
+    contentInsetAdjustmentBehavior="automatic"
+    keyboardShouldPersistTaps="handled"
+    style={
+      Object {
+        "marginTop": 32,
+        "paddingHorizontal": 24,
+      }
+    }
+  >
+    <View>
+      <TextInput
+        allowFontScaling={true}
+        maxLength={25}
+        placeholder="title"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "fontSize": 24,
+            "fontWeight": "600",
+          }
+        }
+        underlineColorAndroid="transparent"
+        value="this is the title"
+      />
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "margin": 5,
+                "marginLeft": 10,
+                "marginRight": 10,
+                "opacity": 1,
+                "padding": 10,
+              }
+            }
+            testID="checkbox"
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#bfbfbf",
+                      "fontSize": 24,
+                    },
+                    Object {
+                      "minWidth": 24,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              clickable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={null}
+            >
+              Text lorem ipsum something
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "flex": 0.25,
+                "justifyContent": "center",
+                "margin": 1,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "margin": 5,
+                "marginLeft": 10,
+                "marginRight": 10,
+                "opacity": 1,
+                "padding": 10,
+              }
+            }
+            testID="checkbox"
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#bfbfbf",
+                      "fontSize": 24,
+                    },
+                    Object {
+                      "minWidth": 24,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              clickable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={null}
+            >
+              Text1
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "flex": 0.25,
+                "justifyContent": "center",
+                "margin": 1,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "margin": 5,
+                "marginLeft": 10,
+                "marginRight": 10,
+                "opacity": 1,
+                "padding": 10,
+              }
+            }
+            testID="checkbox"
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#2089dc",
+                      "fontSize": 24,
+                    },
+                    Object {
+                      "minWidth": 24,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              clickable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "textDecorationLine": "line-through",
+                  "textDecorationStyle": "solid",
+                }
+              }
+            >
+              Text2 what is this? Lorem ipsum lang akong nahibaw an. la nay lain.
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "flex": 0.25,
+                "justifyContent": "center",
+                "margin": 1,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>,
+]
+`;

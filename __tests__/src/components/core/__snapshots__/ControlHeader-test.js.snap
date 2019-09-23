@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ControlHeader Rendering should match to snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "borderTopColor": "#b3bec9",
+      "borderTopWidth": 1,
+      "flexDirection": "row",
+      "height": 50,
+      "justifyContent": "center",
+      "position": "absolute",
+      "top": 0,
+      "width": "100%",
+    }
+  }
+>
+  <Text>
+    test
+  </Text>
+</View>
+`;
